@@ -130,6 +130,7 @@ Draw.io, Microsoft Visio и других.
  myapp                nginx-conf                                     shared            Видео                        Общедоступные
  myfolder             nginx-confmkdir                                snap              Документы                   'Рабочий стол'
  mypythonapp          package.deb                                    test.txt          Загрузки                     Шаблоны
+ 
 
 2 Работа с директориями в Linux
 - Создать новую директорию и переместить туда файл "Human Friends".
@@ -140,6 +141,7 @@ Draw.io, Microsoft Visio и других.
 Перемещение файла "Human Friends" в только что созданную директорию с помощью команды mv
 
 	mv Human\ Friends MyFriends/
+ 
 
 3 Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную
 машину ”
@@ -354,10 +356,12 @@ SELECT 'PackAnimals' AS animal_type, Type AS animal_kind, Name, Commands, BirthD
 | PackAnimals | Horse       | Blaze   | Trot, Jump, Gallop   | 2016-02-29 |
 
 
+
 8 ООП и Java
 
 - Создать иерархию классов в Java, который будет повторять диаграмму
 классов созданную в задаче 6(Диаграмма классов).
+
 
                                         --AnimalSystem
 
@@ -393,6 +397,7 @@ SELECT 'PackAnimals' AS animal_type, Type AS animal_kind, Name, Commands, BirthD
 - Реализовать консольный пользовательский интерфейс с меню для
 навигации между вышеуказанными функциями.
 
+
                                            --AnimalRegistr
 
 Данный код включает в себя добавление нового животного, список команд для животного, обучение новым командам, вывод списка животных по дате рождения и навигацию по меню.
@@ -420,6 +425,7 @@ SELECT 'PackAnimals' AS animal_type, Type AS animal_kind, Name, Commands, BirthD
 Создать механизм, который позволяет вывести на экран общее количество
 созданных животных любого типа (Как домашних, так и вьючных), то есть при
 создании каждого нового животного счетчик увеличивается на “1”.
+
 
                                            --AnimalCounter.java
 
